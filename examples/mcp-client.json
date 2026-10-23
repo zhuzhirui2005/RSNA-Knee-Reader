@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "rsna-knee-reader": {
+      "command": "/absolute/path/to/rsna-knee-reader/.venv/bin/python",
+      "args": [
+        "-m", "rsna_knee_reader", "serve",
+        "--catalog", "/absolute/path/to/reader-data/catalog.json",
+        "--data-root", "/absolute/path/to/reader-data/dicom",
+        "--archives", "/absolute/path/to/reader-data/archives"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.demo/
+data/
+logs/
+.env
+.env.*
+*.dcm
+*.dcmz
+*.key
+*.pem
+*.log
